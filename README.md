@@ -1,59 +1,81 @@
-## SQL Zero to Hero
-📌 Overview
+# SQL Zero to Hero
 
-This repository contains structured SQL practice and exercises completed as part of an intensive SQL bootcamp.
-The goal is to build strong foundations in relational databases and querying for backend and data-focused roles.
+## Overview
+This repository contains structured SQL practice and exercises completed as part of an intensive SQL bootcamp.  
+The focus is on building strong foundations in relational databases and writing clean, efficient queries for backend and data-driven roles.
 
-🎯 Objectives
+---
 
-Master core SQL syntax
+## Objectives
+- Master core SQL syntax
+- Write complex joins and subqueries
+- Perform aggregations and grouped analysis
+- Understand constraints and indexing fundamentals
+- Develop production-ready query thinking
 
-Write complex joins and subqueries
+---
 
-Perform aggregations and data analysis
+## Topics Covered
 
-Understand indexing and query optimization basics
+### Fundamentals
+- SELECT statements
+- WHERE, BETWEEN, IN, LIKE
+- ORDER BY
+- LIMIT / OFFSET
 
-Build production-ready query thinking
+### Aggregations
+- COUNT, SUM, AVG, MIN, MAX
+- GROUP BY
+- HAVING
 
-🧱 Topics Covered
+### Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
 
-SELECT statements
+### Advanced Queries
+- Subqueries
+- Nested queries
+- Conditional logic (CASE)
+- Data constraints
+- Basic indexing concepts
 
-Filtering (WHERE, BETWEEN, IN, LIKE)
+---
 
-Sorting and Limiting
+## Repository Structure
 
-Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
+sql-zero-to-hero/
+│
+├── basics/
+├── aggregations/
+├── joins/
+├── subqueries/
+├── constraints/
+├── advanced_queries/
+├── datasets/
+└── notes/
 
-GROUP BY & HAVING
 
-Joins (INNER, LEFT, RIGHT, FULL)
+Each module contains:
+- `problem.sql`
+- `solution.sql`
+- Optional `notes.md` explaining concepts and learnings
 
-Subqueries
+---
 
-Constraints
+## Tools Used
+- PostgreSQL / MySQL
+- pgAdmin / MySQL Workbench
+- VS Code
 
-Indexing Basics
+---
 
-🗂 Repository Structure
-/basics
-/aggregations
-/joins
-/subqueries
-/constraints
-/advanced_queries
-/datasets
+## Why This Repository Exists
+SQL is a core skill for backend engineering, data engineering, and analytics roles.  
+This repository is structured to move beyond basic syntax and focus on clarity, optimization, and real-world query design.
 
-🛠 Tools Used
+---
 
-PostgreSQL / MySQL
-
-pgAdmin / MySQL Workbench
-
-VS Code
-
-🚀 Why This Matters
-
-SQL is a foundational skill for backend engineering, data engineering, and machine learning pipelines.
-This repository focuses on writing clean, readable, and optimized queries — not just solving exercises.
+## Progress Tracking
+This repository will be continuously updated as new concepts and practice problems are completed.
