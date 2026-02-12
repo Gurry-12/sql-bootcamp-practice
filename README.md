@@ -44,7 +44,7 @@ The focus is on building strong foundations in relational databases and writing 
 ---
 
 ## Repository Structure
-
+``` bash 
 sql-zero-to-hero/
 │
 ├── basics/
@@ -55,7 +55,7 @@ sql-zero-to-hero/
 ├── advanced_queries/
 ├── datasets/
 └── notes/
-
+```
 
 Each module contains:
 - `problem.sql`
