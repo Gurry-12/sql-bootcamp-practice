@@ -98,3 +98,4 @@ HAVING AVG(score) > 430;
 -- show only unique countries 
 SELECT DISTINCT country 
 FROM customers
+
